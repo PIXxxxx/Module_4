@@ -19,3 +19,11 @@ h1{
     font-weight: bold;
     font-family: 'Courier New';
 }
+
+.paragraph-4 {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    text-shadow: green 1px 1px;
+}
