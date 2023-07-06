@@ -18,9 +18,10 @@
 
 # strcount('abcdceeea')
 
-def strcount(string): # сложность O(n * m)
-    syms_counter = {}
-    for symbol in string:
-        syms_counter[symbol] = syms_counter.get(symbol, 0) + 1
-    print(syms_counter)
-strcount('aaabbcdeee')
+# def strcount(string): # сложность O(n)
+#     syms_counter = {}
+#     for symbol in string:
+#         syms_counter[symbol] = syms_counter.get(symbol, 0) + 1
+
+#     print(syms_counter)
+# strcount('aaabbcdeee')
