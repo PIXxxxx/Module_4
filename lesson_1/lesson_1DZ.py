@@ -1,4 +1,4 @@
-def palidrom(stroka):
+def palidrom(stroka): 
     a = []
     for symbol in stroka:
         a.append(symbol)
@@ -6,6 +6,6 @@ def palidrom(stroka):
         return True
     else:
         return False
-vvod = str(input())
-print(palidrom(vvod))
+input = str(input())
+print(palidrom(input))
 
